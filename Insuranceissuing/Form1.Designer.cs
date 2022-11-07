@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.btnExit = new System.Windows.Forms.Button();
+            this.btnInsert = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnExit
@@ -36,16 +37,26 @@
             this.btnExit.Location = new System.Drawing.Point(572, 458);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(75, 23);
-            this.btnExit.TabIndex = 0;
+            this.btnExit.TabIndex = 1;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
+            // 
+            // btnInsert
+            // 
+            this.btnInsert.Location = new System.Drawing.Point(572, 12);
+            this.btnInsert.Name = "btnInsert";
+            this.btnInsert.Size = new System.Drawing.Size(75, 23);
+            this.btnInsert.TabIndex = 0;
+            this.btnInsert.Text = "Insert";
+            this.btnInsert.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(659, 493);
+            this.Controls.Add(this.btnInsert);
             this.Controls.Add(this.btnExit);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -56,5 +67,6 @@
         #endregion
 
         private Button btnExit;
+        private Button btnInsert;
     }
 }
