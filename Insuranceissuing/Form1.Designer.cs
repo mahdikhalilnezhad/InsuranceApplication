@@ -91,7 +91,6 @@
         private Button btnExit;
         private Button btnInsert;
         private Button btnDelete;
-        private Button button1;
         private Button btnUpdate;
     }
 }
