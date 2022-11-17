@@ -1,6 +1,6 @@
 ﻿namespace Insuranceissuing
 {
-    partial class Form1
+    partial class frmMain
     {
         /// <summary>
         ///  Required designer variable.
@@ -46,7 +46,7 @@
             // 
             // btnInsert
             // 
-            this.btnInsert.Location = new System.Drawing.Point(572, 12);
+            this.btnInsert.Location = new System.Drawing.Point(572, 48);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(75, 23);
             this.btnInsert.TabIndex = 0;
@@ -55,7 +55,7 @@
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(572, 41);
+            this.btnDelete.Location = new System.Drawing.Point(572, 77);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 2;
@@ -64,14 +64,14 @@
             // 
             // btnUpdate
             // 
-            this.btnUpdate.Location = new System.Drawing.Point(572, 70);
+            this.btnUpdate.Location = new System.Drawing.Point(572, 106);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(75, 23);
             this.btnUpdate.TabIndex = 3;
             this.btnUpdate.Text = "&Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -80,8 +80,8 @@
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnInsert);
             this.Controls.Add(this.btnExit);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmMain";
+            this.Text = "Insurance Application";
             this.ResumeLayout(false);
 
         }
