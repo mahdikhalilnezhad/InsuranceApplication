@@ -7,11 +7,16 @@ namespace Insuranceissuing
             InitializeComponent();
         }
 
-        private void btnExit_Click(object sender, EventArgs e)
+        private void personToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            frmPerson frmPerson = new frmPerson();
+            frmPerson.ShowDialog();
         }
 
-
+        private void policyToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPolicy frmPolicy = new frmPolicy();
+            frmPolicy.ShowDialog();
+        }
     }
 }
